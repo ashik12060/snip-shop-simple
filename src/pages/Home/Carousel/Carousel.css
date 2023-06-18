@@ -1,0 +1,49 @@
+
+.owl-container{
+    width: 250px;
+    
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: -webkit-linear-gradient(#2600fe, #598ceb);
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: -webkit-linear-gradient(#0050fe, #59a5eb);
+    color: #FFF;
+    text-decoration: none;
+}
+
+.owl-nav {
+    position: absolute;
+    top: 90%;
+    transform: translateY(-50%);
+    color: blue;
+    font-weight: bold;
+    font-size: 16px;
+   
+  }
+.owl-nav:hover{
+    color:rgb(47, 26, 240);
+    background-color: none;
+    
+}
+ 
+
+  /* Style the previous button */
+  .owl-theme .owl-nav .owl-prev{
+    margin-right: 110px;
+    background: red;
+  }
+ 
+
+  .img-container{
+    border-radius: 80px;
+    width: 250px;
+    padding-bottom: 25px;
+  }
+.item{
+    width: 250px;
+    justify-content: center;
+    
+    
+}
